@@ -1,0 +1,88 @@
+Q0: Do you have a food thermometer available for temperature checks?
+A: Yes -> Q1
+A: No -> Q0a
+
+Q0a: Food thermometers are essential tools for ensuring food safety. Without one, temperature assessments will be less accurate. Would you like to continue with the evaluation?
+A: Yes, continue without a thermometer -> Q1
+A: No, I'll get a thermometer first -> R0
+
+Q1: Is the food stored at the proper temperature (below 40°F for refrigerated items, below 0°F for frozen items)?
+A: Yes -> Q2
+A: No -> R1
+A: Not sure -> Q1a
+
+Q1a: Can you check the temperature with a food thermometer?
+A: Yes, and it's at proper temperature -> Q2
+A: Yes, and it's not at proper temperature -> R1
+A: No, I can't check -> Q1b
+
+Q1b: How long has the food been at an unknown or improper temperature?
+A: Less than 2 hours -> Q2
+A: More than 2 hours -> R1
+A: I don't know -> R1
+
+Q2: Has the food been cooked to the appropriate internal temperature?
+A: Yes -> Q3
+A: No -> R2
+A: Not sure -> Q2a
+A: It's a ready-to-eat food that doesn't require cooking -> Q3
+
+Q2a: Can you check the internal temperature with a food thermometer?
+A: Yes, and it's at proper temperature -> Q3
+A: Yes, and it's not at proper temperature -> R2
+A: No, I can't check -> Q2b
+
+Q2b: Does the food appear thoroughly cooked (no pink/raw areas, juices run clear)?
+A: Yes -> Q3
+A: No -> R2
+A: Not sure -> R2
+
+Q3: Are there any visible signs of spoilage (unusual color, texture, or odor)?
+A: Yes -> R3
+A: No -> Q4
+
+Q4: Has the food passed its expiration or "use by" date?
+A: Yes -> R4
+A: No -> Q5
+
+Q5: Has there been any potential cross-contamination with raw meat, seafood, or unwashed produce?
+A: Yes -> R5
+A: No -> Q6
+
+Q6: Has the food been handled with clean hands and utensils?
+A: Yes -> Q7
+A: No -> R6
+A: Not sure -> R6
+
+Q7: For prepared foods, have they been left at room temperature for more than 2 hours?
+A: Yes -> R7
+A: No -> Q8
+A: Not applicable (it's a raw ingredient) -> Q8
+
+Q8: Has the food been properly stored in clean, sealed containers?
+A: Yes -> R8
+A: No -> Q9
+
+Q9: Is there any chance the food contains allergens that could affect the consumer?
+A: Yes, and the consumer has allergies to these ingredients -> R9
+A: No, or the consumer doesn't have relevant allergies -> R8
+
+R1: RESULT: The food is UNSAFE. Foods kept at improper temperatures allow bacteria to multiply rapidly. According to food safety guidelines, perishable foods should not be in the "danger zone" (40°F-140°F) for more than 2 hours.
+
+R2: RESULT: The food is UNSAFE. Proper cooking temperatures are required to kill harmful bacteria. Different foods require different minimum internal temperatures (e.g., 165°F for poultry, 160°F for ground meats, 145°F for whole cuts of beef/pork/fish).
+
+R3: RESULT: The food is UNSAFE. Visible signs of spoilage indicate bacterial growth, mold, or other decomposition that could cause foodborne illness. Never taste food to determine if it's safe.
+
+R4: RESULT: The food is UNSAFE. Expired foods may contain harmful bacteria or toxins even if they look and smell normal. "Use by" dates are particularly important for safety, while "Best by" dates are more about quality.
+
+R5: RESULT: The food is POTENTIALLY UNSAFE due to cross-contamination. Harmful bacteria from raw foods can transfer to ready-to-eat foods. Consider cooking thoroughly if possible, otherwise discard.
+
+R6: RESULT: The food is POTENTIALLY UNSAFE due to improper handling. Hands and utensils can transfer harmful bacteria to food. If the food can be thoroughly cooked to appropriate temperatures, it might be safe; otherwise, consider discarding.
+
+R7: RESULT: The food is UNSAFE. Perishable foods left in the "danger zone" (40°F-140°F) for more than 2 hours should be discarded. In hot weather (above 90°F), the safe time limit reduces to 1 hour.
+
+R8: RESULT: The food is SAFE. All critical safety checks have passed. The food has been properly stored, handled, and shows no signs of spoilage or contamination.
+
+R0: RESULT: Evaluation paused. A food thermometer is recommended for accurate temperature assessment. Food thermometers are inexpensive tools that help ensure food is cooked to safe temperatures and stored at proper refrigeration temperatures.
+
+R9: RESULT: The food is UNSAFE for the specific consumer due to allergen concerns. Even trace amounts of allergens can cause severe reactions in sensitive individuals. Always disclose all ingredients when serving food to others.
