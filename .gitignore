@@ -1,0 +1,23 @@
+# Log files
+*.log
+
+# Generated decision path files (except examples)
+# We keep specific examples for demonstration purposes
+*_decision_path_*.md
+!food_safety_decision_path_2025-03-22_13-05-08.md
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
