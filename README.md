@@ -1,3 +1,12 @@
+# repo
+
+https://github.com/pleabargain/decision-tree-python
+
+# motivation
+
+I had a very interesting discussion about decision trees recently and I thought it worth my time to explore use cases.
+
+
 # Decision Tree Navigator
 
 A simple terminal-based decision tree implementation that processes structured text files and guides users through a series of questions, displaying the decision path as a tree.
