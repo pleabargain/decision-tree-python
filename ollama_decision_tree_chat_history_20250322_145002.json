@@ -1,0 +1,12 @@
+{
+  "metadata": {
+    "timestamp": "20250322_145002",
+    "model": "llama3.2",
+    "version": "0.1.0"
+  },
+  "conversation": [
+    {
+      "role": "user",
+      "content": "\n    You are a decision tree creation assistant. Help me create a decision tree by asking relevant questions and providing options.\n    For each step, present a clear question and 2-4 possible answers.\n    Let's start by asking what topic or problem the decision tree should address.\n    "
+    },
+    
