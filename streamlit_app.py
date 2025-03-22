@@ -12,7 +12,7 @@ import glob
 import logging
 import traceback
 import streamlit as st
-from streamlit.runtime.scriptrunner.exceptions import RerunException
+# from streamlit.runtime.scriptrunner.exceptions import RerunException
 from typing import Dict, List, Optional, Tuple, Union
 
 # Configure logging
