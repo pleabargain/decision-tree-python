@@ -1,0 +1,210 @@
+Q0: Have you checked if you need a visa for all European countries you plan to visit and secured them if necessary?
+A: Yes, all visa requirements are met -> Q0a 
+A: No, I haven't checked visa requirements -> R15
+A: Not applicable (no visa needed for my citizenship/destinations) -> Q0a
+
+Q0a: Are you aware that the European Travel Information and Authorization System (ETIAS) is set to go into effect in 2026 for visa-exempt travelers?
+A: Yes, I'm aware of upcoming ETIAS requirements -> Q0b
+A: No, I wasn't aware of ETIAS -> R23
+
+Q0b: Have you checked your specific airline's baggage policy to confirm the 20kg checked bag + one small carry-on allowance?
+A: Yes -> Q0c
+A: No -> Q0d
+
+Q0d: Different airlines have varying baggage policies, especially for European carriers. Would you like to continue with the standard allowance assumption (20kg checked + small carry-on)?
+A: Yes, continue with standard allowance -> Q0c
+A: No, I'll check my specific airline policy first -> R0
+
+Q0c: Have you confirmed all hotel reservations and saved them in both digital and printed formats?
+A: Yes -> Q0e
+A: No -> R16
+
+Q0e: Have you printed physical copies of all airline and train tickets as backup to digital versions?
+A: Yes -> Q0f
+A: No -> R17
+
+Q0f: Have you downloaded offline maps for all areas you plan to visit?
+A: Yes -> Q0g
+A: No -> R18
+
+Q0g: Have you obtained some local currency for immediate needs upon arrival?
+A: Yes -> Q0h
+A: No -> R19
+
+Q0h: Have you verified your bank cards will work in your destination countries and notified your bank of your travel plans?
+A: Yes -> Q0i
+A: No -> R20
+
+Q0i: Have you saved contact information (phone numbers, addresses) for all hotels and important locations?
+A: Yes -> Q0j
+A: No -> R21
+
+Q0j: Have you set up an out-of-office message for coworkers and delegated necessary responsibilities?
+A: Yes -> Q1
+A: No -> R22
+
+Q1: Will your trip include formal business meetings or events?
+A: Yes -> Q2
+A: No, just casual work -> Q2a
+
+Q2: Do you need to bring presentation materials or specific work equipment?
+A: Yes -> Q3
+A: No -> Q4
+
+Q2a: Will you need to do computer work during your trip?
+A: Yes -> Q3
+A: No -> Q4
+
+Q3: Have you considered weight-saving alternatives for work materials (digital versions, cloud access)?
+A: Yes, I'll minimize physical materials -> Q4
+A: No, I must bring physical materials -> Q3a
+
+Q3a: Can you ship some materials ahead or acquire them at your destination?
+A: Yes, I'll arrange alternatives -> Q4
+A: No, everything must be packed -> Q4
+
+Q4: Will you be staying in one location or traveling between multiple cities?
+A: One main location -> Q5
+A: Multiple locations -> Q4a
+
+Q4a: Will you be using trains frequently between locations?
+A: Yes -> Q4b
+A: No, mostly other transportation -> Q5
+
+Q4b: Have you planned for easy mobility with your luggage on trains (lightweight, wheeled luggage)?
+A: Yes -> Q5
+A: No -> R1
+
+Q5: Will you be attending special events that require distinct outfits?
+A: Yes -> Q5a
+A: No, mainly casual and work attire -> Q6
+
+Q5a: Can these outfits be mixed and matched with other packed items?
+A: Yes -> Q6
+A: No, they need to be separate complete outfits -> Q5b
+
+Q5b: Can you limit special event outfits to no more than two?
+A: Yes -> Q6
+A: No -> R2
+
+Q6: Are laundry facilities available during your trip?
+A: Yes -> Q7
+A: No -> Q6a
+A: Not sure -> Q6a
+
+Q6a: Can you hand wash essential items in your accommodation?
+A: Yes -> Q7
+A: No -> Q7
+
+Q7: Will you be visiting friends or family who could lend you any items?
+A: Yes -> Q8
+A: No -> Q9
+
+Q8: Have you communicated with them about borrowing winter-specific items like umbrellas, heavy coats?
+A: Yes -> Q9
+A: No -> R3
+
+Q9: Are you bringing gifts for your daughter and friends?
+A: Yes -> Q9a
+A: No -> Q10
+
+Q9a: Can gifts be purchased at your destination rather than packed?
+A: Yes, I'll buy them there -> Q10
+A: No, I need to bring specific gifts -> Q9b
+
+Q9b: Are the gifts compact and lightweight?
+A: Yes -> Q9c
+A: No -> R4
+
+Q9c: Have you considered these lightweight gift options? Locally made jewelry or accessories; Special food items from your region (sealed/packaged); Photo books or personalized cards; Compact books in their language/interest areas; Small electronics accessories (unique phone cases, etc.); Artisanal soaps or compact beauty products; Local specialty teas or coffee (vacuum packed); Compact games or puzzles; Gift cards with personal notes; Digital gifts (subscriptions, online experiences)
+A: Yes, I've planned appropriate gifts -> Q10
+A: No, I need to reconsider my gift choices -> R4a
+
+Q10: Have you checked the specific winter weather forecast for your destinations?
+A: Yes -> Q11
+A: No -> R5
+
+Q11: Is extreme cold (below freezing) expected?
+A: Yes -> Q11a
+A: No, mild to moderate winter -> Q12
+
+Q11a: Do you already own appropriate extreme cold weather gear?
+A: Yes -> Q12
+A: No -> R6
+
+Q12: Have you planned your packing list based on layering rather than bulky individual items?
+A: Yes -> Q13
+A: No -> R7
+
+Q13: Have you weighed your packed bag to ensure it's under 20kg?
+A: Yes, and it's under the limit -> Q14
+A: No, I haven't weighed it -> R8
+A: Yes, but it's over the limit -> R9
+
+Q14: Have you packed all essential medications, copies of prescriptions, and sufficient quantities for your entire trip plus a few extra days?
+A: Yes -> Q14a
+A: No -> R10
+A: Not applicable (no medications needed) -> Q14a
+
+Q14a: Do you require reading glasses or other vision aids, and have you packed extras?
+A: Yes, I've packed my glasses and spares -> Q14b
+A: Yes, but I didn't pack extras -> R13
+A: No, I don't need glasses -> Q14b
+
+Q14b: Have you prepared a complete toiletries kit appropriate for winter conditions?
+A: Yes -> Q15
+A: No -> R14
+
+Q15: Do you have appropriate adapters for European electrical outlets?
+A: Yes -> R11
+A: No -> R12
+
+R0: RESULT: Packing planning paused. Check your specific airline's baggage policy, as European carriers often have stricter weight limits or different dimensions for carry-ons than you might expect. Some budget airlines have very restrictive policies.
+
+R1: RESULT: Reconsider your luggage choices. European train travel requires managing your own luggage in tight spaces, often with quick transfers and stairs. Consider using a wheeled backpack or compact roller with strong wheels that can handle cobblestones.
+
+R2: RESULT: Your packing plan exceeds practical limits. With multiple special outfits plus daily wear, your bag will likely exceed weight limits. Consider shipping items ahead, planning to purchase items there, or reducing the number of distinct outfits.
+
+R3: RESULT: Contact your hosts before finalizing your packing list. Friends or family might be able to lend you bulky winter items like umbrellas, heavy coats, or boots, which would significantly reduce your packing weight.
+
+R4: RESULT: Your gift strategy needs adjustment. Large or heavy gifts will consume too much of your weight allowance. Consider flat items (scarves, books), gift cards, or purchasing locally appropriate gifts upon arrival.
+
+R4a: RESULT: Review the suggested lightweight gift options in Q9c. These gift ideas balance thoughtfulness with practical packing constraints. For your daughter specifically, consider items with emotional significance rather than size - like a small keepsake from home, a family photo in a flat frame, or a lightweight accessory you know matches her style.
+
+R5: RESULT: Check detailed weather forecasts before packing. European winter varies greatly by region - from mild in southern areas to extreme cold in northern/eastern regions. Specific forecasts will help you pack appropriately without excess.
+
+R6: RESULT: Plan for purchasing some cold weather gear at your destination. European winter clothing is often well-designed and might be more appropriate for local conditions than what you already own.
+
+R7: RESULT: Revise your packing strategy to focus on layering. Instead of a single heavy coat, consider a weatherproof shell and wool mid-layer. This approach is more versatile for varying conditions and takes less space.
+
+R8: RESULT: Weigh your luggage before finalizing. Exceeding the 20kg limit can result in expensive overweight baggage fees. Use a bathroom scale or luggage scale to verify before reaching the airport.
+
+R9: RESULT: Your packed bag exceeds weight limits. Remove items by focusing on versatile pieces that can be worn multiple ways. Plan to do laundry during your trip rather than packing additional outfits.
+
+R10: RESULT: Don't forget essential medications. Pack in your carry-on with copies of prescriptions using generic drug names, which are more easily recognized internationally. Always pack enough medication for your entire trip plus a few extra days in case of travel delays. Keep medications in original containers with labels when possible.
+
+R11: RESULT: Your packing plan is complete! Based on your answers, here is a suggested packing list for your European winter trip that balances work, pleasure, and the 20kg weight limit:
+
+R12: RESULT: Your packing plan is missing electrical adapters. European outlets differ from those in other regions. Purchase adapters before your trip, as they may be more expensive or harder to find at your destination.
+
+R13: RESULT: Don't forget to pack spare reading glasses. If you rely on glasses, having a backup pair is essential during travel. Consider packing both a regular pair and sunglasses with your prescription if needed. Replacements can be expensive and time-consuming to obtain during your trip.
+
+R14: RESULT: Your toiletries planning needs attention. European winter conditions can be particularly harsh on skin and lips. Ensure you pack moisturizer suitable for dry winter air, lip balm with SPF, and any specific skincare needs you have. Also remember that toiletries in your carry-on must be under 100ml/3.4oz each and placed in a clear, resealable plastic bag.
+
+R15: RESULT: Check visa requirements immediately. Depending on your citizenship and which European countries you're visiting, you may need to apply for a visa or register with travel authorization systems well in advance. Some Schengen visas can take several weeks to process.
+
+R16: RESULT: Confirm all accommodations before departure. Having printed and digital copies of hotel reservations can prevent issues if your phone loses power or connection. Include confirmation numbers, addresses, check-in times, and cancellation policies.
+
+R17: RESULT: Print physical copies of all travel tickets. While digital tickets are convenient, technology failures happen. Having paper backups of airline and train tickets ensures you can still board if your device fails or runs out of battery.
+
+R18: RESULT: Download offline maps for all destinations. Mobile data may be expensive or unreliable abroad. Having offline maps for each city you're visiting allows navigation even without internet connection.
+
+R19: RESULT: Obtain some local currency before departure. While cards are widely accepted in Europe, you'll need cash for small purchases, transportation from airports, or in case of card issues. Even €100 in cash can be helpful for immediate needs.
+
+R20: RESULT: Contact your bank about international travel. Notify them of travel dates and destinations to prevent cards being blocked for suspicious activity. Verify international transaction fees and consider a backup payment method in case your primary card is lost or declined.
+
+R21: RESULT: Create a document with all important contact information. Include phone numbers and addresses for hotels, your daughter, friends you're visiting, local emergency services, and your country's embassy or consulate in each destination.
+
+R22: RESULT: Set up out-of-office notification and delegate responsibilities. Ensure colleagues know your availability during travel and who to contact in your absence. If bringing work devices, test VPN access before departure if needed for remote work.
+
+R23: RESULT: Note the upcoming ETIAS requirement. Beginning in 2026, even travelers who don't currently need a visa to enter the Schengen Zone will need to apply for ETIAS authorization before travel. This will include citizens from countries like the US, Canada, Australia, and the UK. While not affecting your current trip, keep this in mind for future European travel. The online application will cost approximately €7 and be valid for multiple entries over three years or until your passport expires.

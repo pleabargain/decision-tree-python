@@ -6,6 +6,10 @@ A decision tree implementation that processes structured text files and guides u
 
 Original repository: https://github.com/pleabargain/decision-tree-python
 
+
+# TBD
+Currently the decision tree stops as soon as it reaches a 'result', which may be a good thing.
+
 ## Motivation
 
 This project began with an exploration of decision trees and their practical applications. The goal was to create a simple, flexible tool that could be used for any type of decision-making process, from food safety evaluation to determining when to use decision trees in data science.
