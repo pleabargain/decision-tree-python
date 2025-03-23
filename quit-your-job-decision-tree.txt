@@ -1,0 +1,199 @@
+Q1: Are you experiencing severe health issues (physical or mental) directly caused or worsened by your current job?
+A: Yes -> R1
+A: No -> Q2
+
+R1: Prioritize your health and well-being. Consider immediate options like medical leave, accommodations, or resignation if necessary.
+
+Q2: Do you have sufficient emergency savings to cover at least 3-6 months of expenses if you quit without another job lined up?
+A: Yes -> Q2c
+A: No -> Q2a
+
+Q2c: Have you accounted for additional expenses like COBRA health insurance and tax implications?
+A: Yes -> Q3
+A: No -> R2c
+
+R2c: Calculate total costs including benefits replacement before proceeding. Return to this question after analysis.
+
+Q2a: Can you build up adequate savings in the next few months while still working?
+A: Yes -> Q2b
+A: No -> R2
+
+Q2b: Can you create and stick to a financial plan to build savings?
+A: Yes -> Q3
+A: No -> R2
+
+R2: Focus on financial security first. Consider staying at your current job while building emergency savings and looking for other opportunities.
+
+Q3: Do you have another job offer or promising opportunity already lined up?
+A: Yes -> Q3a
+A: No -> Q4
+
+Q3a: Is the new opportunity significantly better in terms of compensation, growth potential, or work environment?
+A: Yes -> R3
+A: No -> Q3b
+
+Q3b: Are there specific non-financial benefits to the new opportunity that outweigh staying in your current role?
+A: Yes -> R3
+A: No -> Q4
+
+R3: The new opportunity appears to be a positive step. Consider accepting it and giving proper notice at your current job.
+
+Q4: Have you been consistently unhappy or dissatisfied with your job for an extended period (more than 6 months)?
+A: Yes -> Q5
+A: No -> Q4a
+
+Q4a: Is your current dissatisfaction likely temporary or related to a specific project/situation that will end?
+A: Yes, it's temporary -> R4
+A: No, it's ongoing -> Q5
+
+R4: Consider staying in your position while the temporary situation resolves and then reassess your satisfaction.
+
+Q5: Have you attempted to address your concerns with management or HR?
+A: Yes, with no improvement -> Q6
+A: No, I haven't tried -> Q5a
+
+Q5a: Are your concerns potentially resolvable through conversation with management?
+A: Yes -> R5
+A: No -> Q6
+
+R5: Before quitting, try discussing your concerns with management or HR. They may be able to address issues or offer solutions.
+
+Q6: Are you experiencing significant barriers to career advancement in your current role?
+A: Yes -> Q7
+A: No -> Q6a
+
+Q6a: Does your current position align with your long-term career goals?
+A: Yes -> Q7
+A: No -> Q6b
+
+Q6b: Is there a potential path to align your current role with your career goals?
+A: Yes -> R6
+A: No -> Q7
+
+R6: Consider discussing career development opportunities with your manager before deciding to quit.
+
+Q7: Is your work environment toxic, abusive, or unethical?
+A: Yes -> Q7a
+A: No -> Q8
+
+Q7a: Have you documented specific incidents and reported them to appropriate authorities if necessary?
+A: Yes -> Q7b
+A: No -> R7a
+
+Q7b: Is there legal liability or whistleblower considerations?
+A: Yes -> R7b
+A: No -> R7
+
+R7a: Document incidents and consider reporting through proper channels before quitting. Consult HR or legal counsel if needed.
+
+R7b: Consult with an employment lawyer before making any decisions to protect your rights and interests.
+
+R7: A toxic, abusive, or unethical environment is a valid reason to leave. Begin your job search immediately while documenting problematic behavior.
+
+Q8: Does your current job severely impact your work-life balance or personal relationships?
+A: Yes -> Q8a
+A: No -> Q9
+
+Q8a: Have you discussed flexible arrangements or accommodations with your employer?
+A: Yes, with no success -> Q9
+A: No, I haven't tried -> R8
+
+R8: Before quitting, explore whether flexible work arrangements could address your work-life balance concerns.
+
+Q9: Do you have skills that are currently in high demand in the job market?
+A: Yes -> Q10
+A: No -> Q9a
+
+Q9a: Can you acquire in-demand skills while employed at your current job?
+A: Yes -> R9
+A: No -> Q10
+
+R9: Consider developing marketable skills before quitting to improve your job prospects.
+
+Q10: Are there significant industry or economic factors that make this a particularly good or bad time to switch jobs?
+A: Good time -> Q11
+A: Bad time -> Q10a
+
+Q10a: Can you delay your decision until market conditions improve?
+A: Yes -> R10
+A: No, I need to decide now -> Q11
+
+R10: Consider waiting for more favorable market conditions while improving your skills and preparing for a future transition.
+
+Q11: Have you thoroughly researched the job market in your field?
+A: Yes -> Q12
+A: No -> R11
+
+R11: Research the current job market, salary ranges, and demand for your skills to ensure realistic expectations.
+
+Q12: Have you updated your resume, portfolio, and professional profiles?
+A: Yes -> Q13
+A: No -> R12
+
+R12: Prepare your job search materials before quitting to ensure you're ready to apply for new opportunities immediately.
+
+Q13: Do you have professional contacts or a network that could help in your job search?
+A: Yes -> Q13b
+A: No -> Q13a
+
+Q13b: Have you quietly started networking and exploring opportunities without compromising your current position?
+A: Yes -> Q14
+A: No -> R13b
+
+R13b: Begin discreet networking and informational interviews before making your final decision.
+
+Q14: Have you considered alternatives to quitting entirely, such as a role change, transfer, or reduced hours?
+A: Yes, not viable -> Q15
+A: No, I haven't considered these -> R14
+
+R14: Explore alternatives to quitting that might address your concerns while maintaining employment stability.
+
+Q15: Is your decision to quit emotional or rational?
+A: Emotional -> R15
+A: Rational -> Q16
+
+R15: Take time to process your emotions before making a decision. Consider speaking with a mentor, career counselor, or therapist.
+
+Q16: Have you calculated exactly how long your finances will last if you quit without another job?
+A: Yes -> Q17
+A: No -> R16
+
+R16: Create a detailed budget and timeline before quitting to understand your financial runway.
+
+Q17: Have you considered the impact on benefits such as health insurance, retirement plans, and paid time off?
+A: Yes -> Q18
+A: No -> R17
+
+R17: Research how quitting will affect your benefits and create a plan to replace critical ones like health insurance.
+
+Q18: Are there upcoming company changes (restructuring, new management, policy changes) that might improve your situation?
+A: Yes -> R18
+A: No -> Q19
+
+R18: Consider waiting for pending changes that might address your concerns before making a final decision.
+
+Q19: Are you prepared for the emotional and psychological aspects of a job transition?
+A: Yes -> Q20
+A: No -> R20
+
+Q20: Have you considered the impact on your professional reputation and relationships?
+A: Yes -> Q21
+A: No -> R21
+
+R21: Develop a plan to maintain professional relationships and ensure a positive departure narrative.
+
+Q21: Do you have a clear vision of your next career move or professional goal?
+A: Yes -> Q22
+A: No -> R22
+
+R22: Define your career objectives and desired outcomes before quitting to ensure your next move aligns with your goals.
+
+Q22: Have you assessed the competitive landscape and salary expectations in your target role or industry?
+A: Yes -> R19
+A: No -> R23
+
+R23: Research current market conditions, salary ranges, and required qualifications for your target positions before proceeding.
+
+R19: Based on your responses, quitting appears to be a well-considered option. Ensure you depart professionally, giving proper notice and maintaining positive relationships.
+
+R20: Take time to prepare emotionally for the transition. Job changes can be stressful even when positive. Consider talking with a career counselor about managing the transition effectively.
